@@ -6,6 +6,7 @@
 
 body {
     background: white;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 /* ** header section ** */
@@ -27,3 +28,22 @@ body {
     cursor: pointer;
 }
 
+/* ! menu items */
+.container .header-menu ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.container .header-menu ul li {
+    cursor: pointer;
+}
+
+.container .header-menu ul li:hover {
+    color: #990094;
+}
+
+.container .header-menu ul .active {
+    color: #990094;
+    font-weight: bold;
+}
