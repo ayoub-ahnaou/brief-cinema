@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: white;
+}
+
+/* ** header section ** */
+.container header {
+    border: 1px solid red;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ! cinema logo */
+.container header .header-title {
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.container header .header-title span {
+    cursor: pointer;
+}
+
