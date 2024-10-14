@@ -11,7 +11,7 @@ body {
 
 /* ** header section ** */
 .container header {
-    height: 44px;
+    height: 56px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -71,5 +71,13 @@ body {
 
 .container .header-search-bar .search-field input::placeholder {
     color: rgb(127, 127, 127);
+}
+
+/* ** hero section ** */
+.container .hero {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(145deg, #CA26FF 7%, #F4CAC0 85%, #FFF3B0 100%);
+    border-bottom-right-radius: 200px;
 }
 
