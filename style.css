@@ -79,5 +79,58 @@ body {
     width: 100%;
     background: linear-gradient(145deg, #CA26FF 7%, #F4CAC0 85%, #FFF3B0 100%);
     border-bottom-right-radius: 200px;
+    border-radius: 15px;
+    display: flex;
+}
+
+/* ! text infos side */
+.container .hero .hero-text-infos {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 100px 120px;
+}
+
+.container .hero .hero-text-infos .big-title {
+    font-size: 50px;
+}
+
+.container .hero .hero-text-infos .sub-title {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+.container .hero .hero-text-infos .paragraph {
+    color: rgba(255, 255, 255, 0.844);
+    width: 650px;
+    padding: 30px;
+}
+
+.container .hero .hero-text-infos .btn {
+    width: 100%;
+    text-align: right;
+}
+
+.container .hero .hero-text-infos .btn button {
+    background: #000;
+    color: #FFCCFD;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 100px;
+    letter-spacing: 2px;
+}
+
+/* ! image side */
+.container .hero .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .hero .hero-image img {
+    height: 60%;
 }
 
