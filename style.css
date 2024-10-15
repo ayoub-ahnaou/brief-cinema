@@ -230,3 +230,18 @@ body {
 .container .explore-more .categories-bar li:hover {
     border-bottom: 1px solid #933C24;
 }
+
+.container .explore-more .categories-bar .active {
+    border-bottom: 1px solid #933C24;
+}
+
+/* ! images movies side */
+.container .explore-more .movies-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.container .explore-more .movies-images img {
+    height: 500px;
+}
