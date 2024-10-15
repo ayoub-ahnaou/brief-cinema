@@ -164,7 +164,6 @@ body {
     width: 100%;
     margin-top: 20px;
     display: flex;
-    
 }
 
 .container .top-movies .movies-container .movie-card {
@@ -173,19 +172,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .container .top-movies .movies-container .movie-card img {
     height: 90%;
+    border-radius: 50px;
+    transition: all ease-in-out 600ms;
+}
+
+.container .top-movies .movies-container .movie-card img:hover {
+    transform: scale(1.01);
+
 }
 
 .container .top-movies .movies-container .movie-card .movie-title {
     background: #330031;
     color: white;
-    width: 80%;
+    width: 92%;
     margin-top: 10px;
     text-align: center;
     border-radius: 100px;
-    padding: 12px 10px;
+    padding: 20px 10px;
     cursor: pointer;
 }
