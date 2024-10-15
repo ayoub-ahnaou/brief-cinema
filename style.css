@@ -1,247 +1,317 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 body {
-    background: white;
-    font-family: 'Comfortaa', sans-serif;
+  background: white;
+  font-family: "Comfortaa", sans-serif;
 }
 
 /* ** header section ** */
 .container header {
-    height: 56px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 56px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /* ! cinema logo */
 .container header .header-title {
-    font-weight: bold;
-    padding-left: 40px;
+  font-weight: bold;
+  padding-left: 40px;
 }
 
 .container header .header-title span {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* ! menu items */
 .container .header-menu ul {
-    display: flex;
-    gap: 40px;
-    list-style: none;
+  display: flex;
+  gap: 40px;
+  list-style: none;
 }
 
 .container .header-menu ul li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .container .header-menu ul li:hover {
-    color: #FF00F7;
+  color: #ff00f7;
 }
 
 .container .header-menu ul .active {
-    color: #FF00F7;
-    font-weight: bold;
+  color: #ff00f7;
+  font-weight: bold;
 }
 
 /* ! search input */
 .container .header-search-bar .search-field {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    background: #FFCCFD;
-    padding: 5px;
-    padding-inline: 10px;
-    margin-right: 30px;
-    border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: #ffccfd;
+  padding: 5px;
+  padding-inline: 10px;
+  margin-right: 30px;
+  border-radius: 20px;
 }
 .container .header-search-bar .search-field img {
-    height: 20px;
+  height: 20px;
 }
 
 .container .header-search-bar .search-field input {
-    border: none;
-    outline: none;
-    background: transparent;
-    width: 300px;
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 300px;
 }
 
 .container .header-search-bar .search-field input::placeholder {
-    color: rgb(127, 127, 127);
+  color: rgb(127, 127, 127);
 }
 
 /* ** hero section ** */
 .container .hero {
-    height: 600px;
-    width: 100%;
-    background: linear-gradient(145deg, #CA26FF 7%, #F4CAC0 85%, #FFF3B0 100%);
-    border-radius: 15px;
-    border-bottom-right-radius: 200px;
-    display: flex;
+  height: 600px;
+  width: 100%;
+  background: linear-gradient(145deg, #ca26ff 7%, #f4cac0 85%, #fff3b0 100%);
+  border-radius: 15px;
+  border-bottom-right-radius: 200px;
+  display: flex;
 }
 
 /* ! text infos side */
 .container .hero .hero-text-infos {
-    height: 100%;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 100px 120px;
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 100px 120px;
 }
 
 .container .hero .hero-text-infos .big-title {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .container .hero .hero-text-infos .sub-title {
-    color: white;
-    font-size: 30px;
-    letter-spacing: 8px;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 8px;
 }
 
 .container .hero .hero-text-infos .paragraph {
-    color: rgba(255, 255, 255, 0.844);
-    width: 650px;
-    padding: 30px;
+  color: rgba(255, 255, 255, 0.844);
+  width: 650px;
+  padding: 30px;
 }
 
 .container .hero .hero-text-infos .btn {
-    width: 100%;
-    text-align: right;
+  width: 100%;
+  text-align: right;
 }
 
 .container .hero .hero-text-infos .btn button {
-    background: #000;
-    color: #FFCCFD;
-    padding: 10px 30px;
-    cursor: pointer;
-    border-radius: 100px;
-    letter-spacing: 2px;
+  background: #000;
+  color: #ffccfd;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 100px;
+  letter-spacing: 2px;
 }
 
 /* ! image side */
 .container .hero .hero-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container .hero .hero-image img {
-    height: 60%;
+  height: 60%;
 }
 
 /* ** top movies in 2024 sections ** */
 
 .container .top-movies {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 /* ! 'top in 2024' title styling */
 .container .top-movies .title {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    padding-block: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-block: 20px;
 }
 
 .line-one {
-    border: 1px solid black;
-    width: 50px;
+  border: 1px solid black;
+  width: 50px;
 }
 
 .line-two {
-    border: 1px solid black;
-    flex-grow: 1;
+  border: 1px solid black;
+  flex-grow: 1;
 }
 
 /* ! movie cards */
 .container .top-movies .movies-container {
-    height: 600px;
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
+  height: 600px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
 }
 
 .container .top-movies .movies-container .movie-card {
-    width: 25%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-block: 30px;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 30px;
 }
 
 .container .top-movies .movies-container .movie-card img {
-    height: 90%;
-    border-radius: 50px;
-    transition: all ease-in-out 600ms;
+  height: 90%;
+  border-radius: 50px;
+  transition: all ease-in-out 600ms;
 }
 
 .container .top-movies .movies-container .movie-card img:hover {
-    transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 .container .top-movies .movies-container .movie-card .movie-title {
-    background: #330031;
-    color: white;
-    width: 85%;
-    margin-top: 10px;
-    text-align: center;
-    border-radius: 100px;
-    padding: 20px 10px;
-    cursor: pointer;
+  background: #330031;
+  color: white;
+  width: 85%;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 100px;
+  padding: 20px 10px;
+  cursor: pointer;
 }
 
 /* ** explore more section ** */
 
 .container .explore-more {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-    padding-block: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-block: 50px;
 }
 
 /* ! the top title */
 .container .explore-more .title {
-    font-size: 40px;
-    text-align: center;
+  font-size: 40px;
+  text-align: center;
 }
 
 /* ! the categories navigation */
 .container .explore-more .categories-bar {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    border-bottom: 1px solid #D9D9D9;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .container .explore-more .categories-bar li {
-    cursor: pointer;
-    padding-inline: 20px;
-    transition: all ease-in-out;
+  cursor: pointer;
+  padding-inline: 20px;
+  transition: all ease-in-out;
 }
 
 .container .explore-more .categories-bar li:hover {
-    border-bottom: 1px solid #933C24;
+  border-bottom: 1px solid #933c24;
 }
 
 .container .explore-more .categories-bar .active {
-    border-bottom: 1px solid #933C24;
+  border-bottom: 1px solid #933c24;
 }
 
 /* ! images movies side */
 .container .explore-more .movies-images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .container .explore-more .movies-images img {
-    height: 500px;
+  height: 500px;
+}
+
+/* ** services section ** */
+.container .services {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ! title */
+.container .services .title {
+  font-size: 40px;
+  text-align: left;
+  width: 70%;
+}
+
+/* ! title of card  */
+.container .services .services-cards {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+.container .services .services-cards .card {
+  background: #fff;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container .services .services-cards .card .service-title {
+  background: #480046;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.container .services .services-cards .card .service-benifits {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container .services .services-cards .card .service-benifits .pack-infos {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.container .services .services-cards .card .service-benifits .pack-infos .resolution-infos {
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+
+.container .services .services-cards .card .btn-buy {
+  background: #480046;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
 }
