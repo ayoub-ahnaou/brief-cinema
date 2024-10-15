@@ -325,8 +325,8 @@ body {
 /* ** footer section ** */
 
 .container footer {
-  background: #480046;
-  height: 600px;
+  background: #330031;
+  height: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -344,8 +344,8 @@ body {
   gap: 6px;
 }
 
+/* ! the top side of footer section */
 .container footer .top-side {
-  background: red;
   height: 80%;
   width: 100%;
   display: flex;
@@ -353,10 +353,29 @@ body {
   align-items: center;
 }
 
-.container footer .top-side div {
-  background: white;
+.container footer .top-side .footer-item .title {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.container footer .top-side .footer-item {
   border-radius: 50px;
+  color: white;
   height: 100%;
   width: 100%;
-  
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+}
+
+.container footer .top-side .footer-item .details {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.container footer .top-side .company .details {
+  justify-content: space-between;
+  padding-right: 20px;
 }
