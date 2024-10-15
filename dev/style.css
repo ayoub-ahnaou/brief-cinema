@@ -302,10 +302,16 @@ body {
   flex-direction: column;
 }
 
-.container .services .services-cards .card .service-benifits .pack-infos .resolution-infos {
-    display: flex;
-    padding-right: 50px;
-    justify-content: space-between;
+.container
+  .services
+  .services-cards
+  .card
+  .service-benifits
+  .pack-infos
+  .resolution-infos {
+  display: flex;
+  padding-right: 50px;
+  justify-content: space-between;
 }
 
 .container .services .services-cards .card .btn-buy {
@@ -319,7 +325,38 @@ body {
 /* ** footer section ** */
 
 .container footer {
-    background: #480046;
-    height: 600px;
-    width: 100%;
+  background: #480046;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ! the bottom side of footer section */
+.container footer .bottom-side {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.container footer .top-side {
+  background: red;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container footer .top-side div {
+  background: white;
+  border-radius: 50px;
+  height: 100%;
+  width: 100%;
+  
 }
