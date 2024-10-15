@@ -39,11 +39,11 @@ body {
 }
 
 .container .header-menu ul li:hover {
-    color: #990094;
+    color: #FF00F7;
 }
 
 .container .header-menu ul .active {
-    color: #990094;
+    color: #FF00F7;
     font-weight: bold;
 }
 
@@ -78,8 +78,8 @@ body {
     height: 600px;
     width: 100%;
     background: linear-gradient(145deg, #CA26FF 7%, #F4CAC0 85%, #FFF3B0 100%);
-    border-bottom-right-radius: 200px;
     border-radius: 15px;
+    border-bottom-right-radius: 200px;
     display: flex;
 }
 
@@ -134,3 +134,58 @@ body {
     height: 60%;
 }
 
+/* ** top movies in 2024 sections ** */
+
+.container .top-movies {
+    padding-bottom: 20px;
+}
+
+/* ! 'top in 2024' title styling */
+.container .top-movies .title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-block: 10px;
+}
+
+.line-one {
+    border: 1px solid black;
+    width: 50px;
+}
+
+.line-two {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+/* ! movie cards */
+.container .top-movies .movies-container {
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.container .top-movies .movies-container .movie-card {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .top-movies .movies-container .movie-card img {
+    height: 90%;
+}
+
+.container .top-movies .movies-container .movie-card .movie-title {
+    background: #330031;
+    color: white;
+    width: 80%;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 100px;
+    padding: 12px 10px;
+    cursor: pointer;
+}
