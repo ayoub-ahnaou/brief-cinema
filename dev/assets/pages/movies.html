@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cinema</title>
-    <link rel="stylesheet" href="../css/movies.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../../assets/css/movies.css" />
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header>
+        <div class="header-title">
+          <span><a href="../../index.html"> CINEMA'S </a></span>
+        </div>
+        <div class="header-menu">
+          <ul>
+            <li><a class="active" href="assets/pages/movies.html">Movies</a></li>
+            <li><a href="assets/pages/tarifs.html">Tarifs</a></li>
+            <li><a href="assets/pages/contact.html">Contact</a></li>
+            <li><a href="assets/pages/aboutUs.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="header-search-bar">
+          <div class="search-field">
+            <input type="text" placeholder="Search" />
+            <i class="fal fa-mars-stroke-h"></i>
+          </div>
+        </div>
+      </header>
+
+      <!-- movies container -->
+       <div class="movies-pictures">
+        <!-- ! area contains title and filter -->
+        <div class="area-movies-up">
+          <p>ALL MOVIES</p>
+          <div class="filter-side">
+            <p>FILTER BY</p>
+            <!-- TODO: arrow down not showing, issue from fontawesome -->
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+        <!-- ! area contains images -->
+         <div class="area-movies-down">
+          <div class="movie-card">
+            <img src="../images/movies/smile.jpg" alt="" />
+            <p class="movie-title">SMILE</p>
+          </div>
+          <div class="movie-card">
+            <img src="../images/movies/mr-robot.jpg" alt="" />
+            <p class="movie-title">MR ROBOT</p>
+          </div>
+          <div class="movie-card">
+            <img src="../images/movies/dune.png" alt="" />
+            <p class="movie-title">DUNE</p>
+          </div>
+          <div class="movie-card">
+            <img src="../images/movies/nobody.png" alt="" />
+            <p class="movie-title">NOBODY</p>
+          </div>
+          <div class="movie-card">
+            <img src="../images/movies/prison-break.png" alt="" />
+            <p class="movie-title">PRISON BREAK</p>
+          </div>
+          <div class="movie-card">
+            <img src="../images/movies/matrix.jpg" alt="" />
+            <p class="movie-title">MATRIX</p>
+          </div>
+          <div class="movie-card">
+            <img src="../images/movies/la-casa-del-papel.webp" alt="" />
+            <p class="movie-title">LA CASA DEL PAPEL</p>
+          </div>
+          <div class="movie-card">
+            <img src="../images/movies/green-mile.jpg" alt="" />
+            <p class="movie-title">GREEN MILE</p>
+          </div>
+          <div class="movie-card">
+            <img src="../images/movies/the-walking-dead.jpg" alt="" />
+            <p class="movie-title">THE WALKING DEAD</p>
+          </div>
+          <div class="movie-card">
+            <img src="../images/movies/got.webp" alt="" />
+            <p class="movie-title">GAME OF THRONES</p>
+          </div>
+         </div>
+       </div>
+
+       <!-- arrows and navigation number -->
+        <section></section>
+    </div>
+  </body>
 </html>
