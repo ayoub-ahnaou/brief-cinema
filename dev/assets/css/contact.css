@@ -1,0 +1,9 @@
+.container .contact-us {
+    border: solid red 1px;
+    padding: 40px;
+}
+
+.container .contact-us .contact-us-title {
+    font-size: 32px;
+    font-weight: bold;
+}
