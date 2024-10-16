@@ -1,0 +1,60 @@
+.container .tarif-motivation {
+    padding: 40px;
+}
+
+.container .tarif-motivation p {
+    font-size: 50px;   
+    letter-spacing: 4px;
+}
+
+.container .tarif-motivation p span {
+    color: #990094;
+}
+
+.container .tarif-cards {
+    height: 400px;
+    margin-inline: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .tarif-cards .card {
+    width: 320px;
+    background: #450042;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+}
+
+.container .tarif-cards .card .tarif-type {
+    text-align: center;
+    /* height: 60px; */
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+
+.container .tarif-cards .card .tarif-price {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Cormorant Garamond';
+}
+
+.container .tarif-cards .card .tarif-description {
+    background: #990094;
+    padding: 0 50px;
+    flex-grow: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.container .warning-paragraph {
+    padding: 30px 40px;
+    padding-bottom: 70px;
+    letter-spacing: 3px;
+}
