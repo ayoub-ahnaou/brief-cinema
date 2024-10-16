@@ -12,6 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="container">
@@ -26,7 +29,9 @@
               <a href="assets/pages/movies.html">Movies</a>
             </li>
             <li><a href="assets/pages/tarifs.html">Tarifs</a></li>
-            <li><a class="active" href="assets/pages/contact.html">Contact</a></li>
+            <li>
+              <a class="active" href="assets/pages/contact.html">Contact</a>
+            </li>
             <li><a href="assets/pages/aboutUs.html">About Us</a></li>
           </ul>
         </div>
@@ -39,13 +44,95 @@
       </header>
 
       <!-- contact us section -->
-       <section class="contact-us">
-           <p class="contact-us-title">contact us</p>
-            <div class="contact-form">
-                
+      <section class="contact-us">
+        <p class="contact-us-title">contact us</p>
+        <form class="contact-form">
+          <!-- ! two inputs first name and last name -->
+          <div class="full-name">
+            <!-- ! first name input -->
+            <div class="label-input">
+              <label>first name</label>
+              <input type="text" />
             </div>
-       </section>
+            <!-- ! last name -->
+            <div class="label-input">
+              <label>last name</label>
+              <input type="text" />
+            </div>
+          </div>
+          <!-- ! email input -->
+          <div class="label-input">
+            <label>email</label>
+            <input type="email" />
+          </div>
+          <!-- ! phone number input -->
+          <div class="label-input">
+            <label>phone number</label>
+            <input type="text" />
+          </div>
+          <!-- ! message text area -->
+          <div class="label-input">
+            <label>message</label>
+            <textarea rows="10"></textarea>
+          </div>
 
+          <!-- ! button submit -->
+          <button>submit</button>
+        </form>
+      </section>
+
+      <!-- footer section -->
+      <footer>
+        <div class="space-vide"></div>
+        <div class="top-side">
+          <div class="footer-item social-media">
+            <div class="footer-title">
+              <i class="fa-regular fa-circle"></i>
+              <p class="title">social media links</p>
+            </div>
+            <div class="details">
+              <i class="fa-brands fa-github"></i>
+              <p>YouCode SAFI @ 2024</p>
+            </div>
+            <div class="details">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <p>CodeShoegun</p>
+            </div>
+          </div>
+          <div class="footer-item sponsors">
+            <div class="footer-title">
+              <i class="fa-regular fa-circle"></i>
+              <p class="title">sponsors</p>
+            </div>
+            <div class="details">
+              <p>Cisco - Amazon - Google - Azure - LinkedIn</p>
+            </div>
+            <div class="details">
+              <p>IBM - Facebook - Tesla - Appel - Microsoft</p>
+            </div>
+          </div>
+          <div class="footer-item company">
+            <div class="footer-title">
+              <i class="fa-regular fa-circle"></i>
+              <p class="title">company</p>
+            </div>
+            <div class="details">
+              <p>Register</p>
+              <p>Login</p>
+            </div>
+            <div class="details">
+              <p>Whishlist</p>
+              <p>Our Products</p>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-side">
+          <p>A Fawectt book</p>
+          <p>Published by The Random House Publishing Group</p>
+          <p>Copyright © 2024 by CodeShogun</p>
+          <p>All rights reserved</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

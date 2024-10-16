@@ -1,9 +1,53 @@
 .container .contact-us {
-    border: solid red 1px;
     padding: 40px;
 }
 
 .container .contact-us .contact-us-title {
     font-size: 32px;
     font-weight: bold;
+    padding-top: 10px;
+}
+
+.container .contact-us .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding-block: 20px;
+}
+
+.container .contact-us .contact-form .full-name {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.container .contact-us .contact-form .full-name .label-input {
+    width: 50%;
+}
+
+.container .contact-us .contact-form .label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contact-us input, .container .contact-us textarea {
+    resize: none;
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container .contact-form button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: #990094;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
 }
