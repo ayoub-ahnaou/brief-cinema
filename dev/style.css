@@ -77,7 +77,7 @@ body {
 }
 
 .container .header-search-bar .search-field input::placeholder {
-  color: rgb(127, 127, 127);
+  color: white;
 }
 
 /* ** hero section ** */
