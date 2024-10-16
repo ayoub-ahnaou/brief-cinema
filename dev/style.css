@@ -5,6 +5,11 @@
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: none;
+}
+
 body {
   background: white;
   font-family: "Comfortaa", sans-serif;
@@ -35,11 +40,12 @@ body {
   list-style: none;
 }
 
-.container .header-menu ul li {
+.container .header-menu ul li a {
   cursor: pointer;
+  color: black;
 }
 
-.container .header-menu ul li:hover {
+.container .header-menu ul li a:hover {
   color: #ff00f7;
 }
 
