@@ -76,3 +76,10 @@
 .container .arrows-nav p:hover {
     background: #e4e4e4;
 }
+
+.container .movies-pictures .area-movies-up .filter-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
