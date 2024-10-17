@@ -332,7 +332,7 @@ body {
 
 .container footer {
   background: #330031;
-  height: 500px;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -348,7 +348,6 @@ body {
   color: white;
   justify-content: center;
   align-items: center;
-  text-align: center;
   gap: 6px;
   margin: 20px;
   padding: 20px;
@@ -366,6 +365,7 @@ body {
 .container footer .top-side .footer-item {
   color: white;
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 50px 20px;
@@ -429,12 +429,22 @@ body {
 
 /* ! partie responsive for footer section */
 @media screen and (max-width: 950px) {
-  .container footer .bottom-side {
-    padding: 0;
-    margin: 40px 0;
+  .container footer {
+    font-size: 13px;
   }
-
   .container footer .top-side {
-
+    flex-direction: column;
   }
+
+  .container footer .top-side .footer-item {
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+  }
+
+  .container footer .top-side .footer-item .details {
+    text-align: center;
+    border: none;
+    justify-content: center;
+  }
+  
 }
