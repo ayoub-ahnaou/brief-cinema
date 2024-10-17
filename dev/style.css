@@ -458,7 +458,7 @@ body {
 }
 
 /* ! partie responsive for tarifs  */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1290px) {
   .container .tarif-motivation p {
     font-size: 2rem;
   } 
@@ -466,4 +466,27 @@ body {
   .container .warning-paragraph {
     font-size: 12px;
   }
+
+  .container .tarif-cards {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .container .tarif-cards .card .tarif-price {
+    font-size: 40px;
+  }
+
+  .container .tarif-cards .card .tarif-description {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container .tarif-motivation p {
+    font-size: 1rem;
+  } 
+  
 }

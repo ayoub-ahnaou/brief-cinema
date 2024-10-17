@@ -12,14 +12,14 @@
 }
 
 .container .tarif-cards {
-    height: 400px;
+    height: auto;
     margin-inline: 40px;
     display: flex;
     justify-content: space-between;
 }
 
 .container .tarif-cards .card {
-    width: 320px;
+    max-width: 320px;
     background: #450042;
     border-radius: 10px;
     display: flex;
@@ -44,7 +44,7 @@
 
 .container .tarif-cards .card .tarif-description {
     background: #990094;
-    padding: 0 50px;
+    padding: 14px 50px;
     flex-grow: 1;
     display: flex;
     text-align: center;
