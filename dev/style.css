@@ -403,10 +403,11 @@ body {
   padding-right: 20px;
 }
 
-/* ! partie responsive of navigation bar */
 .container header .burger-menu {
   display: none;
 }
+
+/* ! partie responsive of navigation bar */
 @media screen and (max-width: 950px) {
   .container header .header-menu,
   .container header .header-search-bar {
@@ -453,5 +454,16 @@ body {
   .container footer .bottom-side {
     text-align: center;
     margin: 10px 0;
+  }
+}
+
+/* ! partie responsive for tarifs  */
+@media screen and (max-width: 950px) {
+  .container .tarif-motivation p {
+    font-size: 2rem;
+  } 
+
+  .container .warning-paragraph {
+    font-size: 12px;
   }
 }
