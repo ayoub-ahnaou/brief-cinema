@@ -499,5 +499,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
     font-size: 12px;
   }
+
+  .container .arrows-nav {
+    gap: 10px;
+    font-size: 12px;
+  }
   
 }
