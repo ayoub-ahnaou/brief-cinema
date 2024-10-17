@@ -488,5 +488,16 @@ body {
   .container .tarif-motivation p {
     font-size: 1rem;
   } 
+}
+
+@media screen and (max-width: 900px) {
+  .container .movies-pictures .area-movies-up {
+    font-size: 12px;
+  }
+
+  .container .movies-pictures .area-movies-down {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 12px;
+  }
   
 }
