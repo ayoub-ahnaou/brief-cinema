@@ -432,6 +432,8 @@ body {
   .container footer {
     font-size: 13px;
   }
+
+  /* top side from footer */
   .container footer .top-side {
     flex-direction: column;
   }
@@ -447,4 +449,9 @@ body {
     justify-content: center;
   }
   
+  /* bottom side from footer */
+  .container footer .bottom-side {
+    text-align: center;
+    margin: 10px 0;
+  }
 }
