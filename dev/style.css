@@ -18,15 +18,14 @@ body {
 /* ** header section ** */
 .container header {
   height: 56px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-inline: 30px;
 }
 /* ! cinema logo */
 .container header .header-title {
   font-weight: bold;
-  padding-left: 40px;
 }
 
 .container header .header-title span {
@@ -402,4 +401,28 @@ body {
 .container footer .top-side .company .details {
   justify-content: space-between;
   padding-right: 20px;
+}
+
+/*  partie responsive of navigation bar */
+.container header .burger-menu {
+  display: none;
+}
+@media screen and (max-width: 950px) {
+  .container header .header-menu,
+  .container header .header-search-bar {
+    display: none;
+  }
+
+  .container header .burger-menu {
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+  }
+
+  .container header .burger-menu img {
+    height: 25px;
+    cursor: pointer;
+  }
 }
