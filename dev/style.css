@@ -74,6 +74,7 @@ body {
   outline: none;
   background: transparent;
   width: 300px;
+  color: white;
 }
 
 .container .header-search-bar .search-field input::placeholder {
