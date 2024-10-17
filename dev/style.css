@@ -408,7 +408,7 @@ body {
 }
 
 /* ! partie responsive of navigation bar */
-@media screen and (max-width: 950px) {
+@media (max-width: 950px) {
   .container header .header-menu,
   .container header .header-search-bar {
     display: none;
@@ -429,7 +429,7 @@ body {
 }
 
 /* ! partie responsive for footer section */
-@media screen and (max-width: 950px) {
+@media (max-width: 950px) {
   .container footer {
     font-size: 13px;
   }
@@ -458,7 +458,7 @@ body {
 }
 
 /* ! partie responsive for tarifs  */
-@media screen and (max-width: 1290px) {
+@media (max-width: 1290px) {
   .container .tarif-motivation p {
     font-size: 2rem;
   } 
@@ -484,13 +484,14 @@ body {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media (max-width: 550px) {
   .container .tarif-motivation p {
     font-size: 1rem;
   } 
 }
 
-@media screen and (max-width: 900px) {
+/* ! partie responsive for movies */
+@media (max-width: 900px) {
   .container .movies-pictures .area-movies-up {
     font-size: 12px;
   }
@@ -504,5 +505,22 @@ body {
     gap: 10px;
     font-size: 12px;
   }
-  
+}
+
+/* ! partie responsive for home page */
+@media (max-width: 900px) {
+  .container .hero {
+    flex-direction: column;
+    height: auto;
+  }
+  .container .hero .hero-text-infos {
+    width: 100%;
+    padding: 40px 20px;
+  }
+  .container .hero .hero-text-infos .paragraph {
+    width: 100%;
+  }
+  .container .hero .hero-img img {
+    height: 100%;
+  }
 }
