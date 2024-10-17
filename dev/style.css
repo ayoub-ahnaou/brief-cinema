@@ -348,6 +348,7 @@ body {
   color: white;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 6px;
   margin: 20px;
   padding: 20px;
@@ -365,7 +366,6 @@ body {
 .container footer .top-side .footer-item {
   color: white;
   height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 50px 20px;
@@ -403,7 +403,7 @@ body {
   padding-right: 20px;
 }
 
-/*  partie responsive of navigation bar */
+/* ! partie responsive of navigation bar */
 .container header .burger-menu {
   display: none;
 }
@@ -424,5 +424,17 @@ body {
   .container header .burger-menu img {
     height: 25px;
     cursor: pointer;
+  }
+}
+
+/* ! partie responsive for footer section */
+@media screen and (max-width: 950px) {
+  .container footer .bottom-side {
+    padding: 0;
+    margin: 40px 0;
+  }
+
+  .container footer .top-side {
+
   }
 }
