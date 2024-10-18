@@ -13,6 +13,9 @@ vous pouvez consulter la demo de mon site en suivent le lien [Demo Link](https:/
 ### Lien pour la presentation Canva
 Pour obtenir plus d'informations sur le déroulement du travail sur ce projet, vous pouvez consulter la présentation sur [Présentation Canva](https://www.canva.com/design/DAGTQRWAKdM/wk2OgCrWalGI1FLBHfhn2g/edit?utm_content=DAGTQRWAKdM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
+### Les interfaces Figma
+Vous pouvez consulter toutes les interfaces ainsi que le fichier figma-design.fig dans le même projet, sous le répertoire figma/.
+
 ### La planification des taches
 Pour un aperçu détaillé de la planification des tâches, vous pouvez visiter mon profile dans la plateforme [trello](https://trello.com/invite/b/670d36768cc5ffcfd3a0a74f/ATTIf6f77247c691ca772ce5c1cacb25066e828EBC07/brief-2).
 
