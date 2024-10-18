@@ -555,3 +555,41 @@ body {
     flex-direction: column;
   }
 }
+
+/* ! responsive design for top mobies in 2024 section */
+@media (max-width: 1300px) {
+  .container .top-movies .movies-container {
+    height: auto;
+    margin-top: 4px;
+  }
+  .container .top-movies .movies-container .movie-card img {
+    height: 300px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 900px) {
+  .container .top-movies .movies-container .movie-card img {
+    height: 200px;
+  }
+  .container .top-movies .movies-container .movie-card .movie-title {
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 6px 10px;
+    width: 60%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 700px) {
+  .container .top-movies .movies-container .movie-card .movie-title {
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 6px 10px;
+    width: 98%;
+  }
+  .container .top-movies .movies-container {
+    overflow: hidden;
+  }
+}
