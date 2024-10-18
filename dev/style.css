@@ -135,10 +135,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .container .hero .hero-image img {
   height: 60%;
+  width: 100%;
 }
 
 /* ** top movies in 2024 sections ** */
@@ -508,6 +510,7 @@ body {
 }
 
 /* TODO ==> responsive design for home page */
+
 /* ! partie responsive for hero section */
 @media (max-width: 900px) {
   .container .hero {
@@ -522,7 +525,7 @@ body {
     width: 100%;
   }
   .container .hero .hero-img img {
-    height: 100%;
+    height: 50%;
   }
   .container .hero .hero-text-infos .btn {
     text-align: left;
