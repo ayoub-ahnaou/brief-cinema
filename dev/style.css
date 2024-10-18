@@ -251,6 +251,10 @@ body {
   gap: 10px;
 }
 
+.container .explore-more .movies-images::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
 .container .explore-more .movies-images img {
   height: 500px;
 }
@@ -591,5 +595,32 @@ body {
   }
   .container .top-movies .movies-container {
     overflow: hidden;
+  }
+}
+
+/* ! responsive design for explore more section */
+@media (max-width: 900px) {
+  .container .explore-more {
+    padding: 5px;
+  }
+  .container .explore-more .title {
+    font-size: 24px;
+  }
+  .container .explore-more .categories-bar {
+    gap: 2px;
+    font-size: 12px;
+  }
+  .container .explore-more .categories-bar li {
+    padding-inline: 4px;
+  }
+  .container .explore-more .movies-images {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 4px;
+    justify-content: flex-start;
+    width: 100%;
+    overflow: auto;
+  }
+  .container .explore-more .movies-images img {
+    height: 300px;
   }
 }
